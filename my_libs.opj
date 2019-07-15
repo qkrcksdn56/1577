@@ -1,0 +1,55 @@
+(ExpressProject "my_libs"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\my_libs.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\my_libs.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (my_atmega
+      (FullPartName "my_atmega.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\WORKSPACE\ADU\MY_LIBS\MY_LIBS.OLB")
+      (DeviceIndex "0"))
+    (my_atmega32
+      (FullPartName "my_atmega32.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\WORKSPACE\ADU\MY_LIBS\MY_LIBS.OLB")
+      (DeviceIndex "0"))
+    (my_ic2j
+      (FullPartName "my_ic2j.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\WORKSPACE\ADU\MY_LIBS\MY_LIBS.OLB")
+      (DeviceIndex "0"))
+    (ATMega32-DIP40
+      (FullPartName "ATMega32-DIP40.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\WORKSPACE\SAMPLES\AVRUSB500_R02\AVRUSB500_R02\ALLEGRO\AVR.OLB")
+      (DeviceIndex "0"))
+    (myfnd
+      (FullPartName "myfnd.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\WORKSPACE\ADU\MY_LIBS\MY_LIBS.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\user\Desktop\workspace\adu\my_libs\my_libs.dsn")
+      (Path "Design Resources"
+         "C:\Users\user\Desktop\workspace\adu\my_libs\my_libs.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "C:\Users\user\Desktop\workspace\adu\my_libs\my_libs.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\my_libs.olb")
+      (Select "Design Resources" "Library" ".\my_libs.olb" "/1577"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 534"))
+      (Tab 0))))
